@@ -1,0 +1,40 @@
+@model Imc
+@{
+    ViewData["Title"] = "Operadores Matemáticos";
+}
+
+<section class="bg-dark text-white text-center py-3">
+    <div class="container d-flex align-items-center flex-column">
+        <h1 class="text-uppercase mb-3">Operadores Matemáticos</h1>
+        <p class="font-weight-light fs-2">Prestação com Juros</p>
+    </div>
+</section>
+
+<div class="container mt-4">
+    <div class="row justify-content-md-center">
+        <form. method="post" class="col-lg-8 col-md-12">
+            <p class="mb-4">
+                Analisando a fórmula "Prestação = valor + (valor * (taxa/100) * tempo)", crie um algoritmo para efetuar
+                o cálculo do valor de uma prestação em atraso. (Você deverá ler o VALOR da prestação, a TAXA de juros
+                imposta pelo banco, e o número de dias em ATRASO.
+            </p>
+            <h1>Calculador de IMC</h1>
+
+                    <label for="altura">Altura (em metros)</label>
+                    <input id="altura" type="number" />
+
+                    <label for="peso">Peso (em quilogramas)</label>
+                    <input id="peso" type="number" />
+
+                    <button>Calcular IMC</button>
+                    <label>O IMC é <span>99</span></label>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Calcular</button>
+        </form.>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
